@@ -18,6 +18,7 @@ public class Verify_Header_Text extends Test_Data_Info {
         public void verify_header_text() throws InterruptedException {
             Home_Page log = new Home_Page();
             Assert.assertEquals("CAREER SEARCH STARTS HERE", log.header_text());
+            //test
         }
 
         @After
